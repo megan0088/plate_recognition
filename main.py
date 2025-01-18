@@ -133,6 +133,7 @@ def create_transaction():
 
             # Finalisasi
             extracted_text = part1+part2+part3
+            extracted_text = extracted_text.upper()
 
 
     # Setup hasil ekstraksi text untuk di kembalikan pada frontend
